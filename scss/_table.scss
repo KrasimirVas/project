@@ -1,0 +1,79 @@
+.rankings {
+    background: lightgray;
+    padding:3rem 0;
+    
+}
+table {
+	width: 60%;
+	table-layout: fixed;
+	
+	border: 2px solid black;
+	border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+    
+    margin-left:20%;
+    margin-right:20%;
+    text-align: center;
+    background: white;
+    font-size:1.3rem;
+}
+
+table td, table th {
+	border: 1px solid black;
+    padding: 1rem 2rem;
+
+}
+
+table thead th {
+	text-align: center;
+    background: rgb(30, 30, 30);
+    color:white;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+table tr:nth-child(odd) td {
+	
+}
+
+table tr:hover td {
+	background: black;
+	color: #FFF;
+	border-color: transparent;
+}
+[data-label="RANK"]{
+    background: rgb(235, 0, 59);
+    font-weight: bold;
+}
+[data-label="AMOUNT"]{
+    
+    font-style: italic;
+}
+
+
+
+@media screen and (max-width:800px) {
+    table{
+        text-align: center;
+    }
+    table thead {
+        display: none;
+    }
+    table, table tbody, table tr, table td {
+        display: block;
+    }
+    table tr {
+        border: 2px solid black;
+    }
+    table tbody td:before {
+        display: inline-block;
+        width: 10rem;
+        font-weight: bold;
+        text-align: right;
+        padding-right: 1rem;
+        white-space: nowrap;
+        content: attr(data-label);
+    }
+ 
+}

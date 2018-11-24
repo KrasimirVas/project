@@ -1,0 +1,30 @@
+---
+layout: site
+---
+<h1>Index<h1>
+  <section class="information">
+    <h3>BETWAY UK CHAMPIONSHIP IS LIVE NOW</h3>
+    <p>The tournament runs from November 27 to December 9 at the York Barbican and tickets are still available.</p>
+    
+    <form action="#">
+    <a href="{{site.baseurl}}/live/">
+      <input type="button" value="Live Scores" />
+   </a>
+   <a href="{{site.baseurl}}/rankings/">
+    <input type="button" value="Rankings" />
+   </a>
+  </form>
+  </section>
+
+  <div class="posts">
+    
+        <ul>
+                {% for post in site.posts %}
+                  <li>
+                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                    {{ post.excerpt }}
+                  </li>
+                {% endfor %}
+        </ul>
+      
+  </div>

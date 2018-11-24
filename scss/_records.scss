@@ -1,0 +1,80 @@
+.most-world-titles, .most-century-breaks, .most-maximum-breaks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+    
+
+}
+.legend, .first, .second, .third, .fourth{
+    flex:0 0 18%;
+    color:white;
+    margin: 1rem;
+    box-shadow: 0 0 3rem 0 rgba(0,0,0,0.3);
+    border:0.4rem black solid;
+    border-radius:1rem;
+}
+
+
+.legend{
+    margin:0;
+    color:black;
+    text-align: center;
+}
+.first img, .second img{
+    width: 100%;
+    height: auto;
+    
+}
+.most-world-titles .first{
+    background: url("/img/hendry.jpg");
+    background-size: cover;
+}
+.most-world-titles .second{
+    background: url("/img/ronnie.jpg");
+    background-size: cover;
+}
+.most-world-titles .third{
+    background: url("/img/John-Higgins-609836.jpg");
+    background-size: cover;
+}
+.most-world-titles .fourth{
+    background: url("/img/steve-davis.jpg");
+    background-size: cover;
+}
+.most-century-breaks .first{
+    background: url("/img/ronnie.jpg");
+    background-size: cover;
+
+}
+.most-century-breaks .second{
+    background: url("/img/hendry.jpg");
+    background-size: cover;
+}
+.most-century-breaks .third{
+    background: url("/img/John-Higgins-609836.jpg");
+    background-size: cover;
+}
+.most-century-breaks .fourth{
+    background: url("/img/NeilRobertson2016.jpg");
+    background-size: cover;
+}
+.most-maximum-breaks .first{
+    background: url("/img/ronnie.jpg");
+    background-size: cover;
+
+}
+.most-maximum-breaks .second{
+    background: url("/img/hendry.jpg");
+    background-size: cover;
+}
+.most-maximum-breaks .third{
+    background: url("/img/John-Higgins-609836.jpg");
+    background-size: cover;
+}
+.most-maximum-breaks .fourth{
+    background: url("/img/ding.jpg");
+    background-size: cover;
+}
+

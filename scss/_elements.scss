@@ -1,0 +1,111 @@
+.information{
+
+    background:url("../img/table.jpg");
+    background-repeat: no-repeat;    
+    background-size: 100% ;
+    background-position: center top ;
+    padding: 1rem;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: #fff;
+    background-size: cover;
+    text-align: center;
+    
+    
+    
+}
+.information h3, .information p, .information form{
+
+max-width: 60rem;
+margin:0 auto;
+    
+    
+    
+}
+.information form {
+    padding-top:10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    vertical-align: baseline;
+    
+}
+.information form input {
+margin-right:1rem;
+width:20rem;
+outline:none;
+border:none;
+border-radius: 20px;
+padding:10px;
+background: black;
+color:white;
+font-weight: 400;
+    
+}
+.posts{
+    
+}
+.posts ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    margin:0;
+    
+
+   
+}
+.posts ul li{
+    list-style: none;
+    background: #ABABAB;
+    
+    align-items: center;
+    text-align: center;
+    box-shadow: 
+    inset 0 0 0 10px rgb(20, 20, 20), 
+    inset 0 0 0 12px white,
+    0 6px 20px red;
+    
+}
+.posts ul li a{
+   text-decoration: none;
+   font-size:1.5rem;
+   color:black;
+}
+.posts ul li p{
+    padding:1.5rem 3rem;
+    font-size:1.3rem;
+    font-weight: 400;
+ }
+ .livescore{
+     background:rgb(20, 20, 20);
+     padding-top:5rem;
+ }
+ .livescore-message{
+     width:60%;
+     margin:0 auto;
+     padding:3rem 0;
+     
+     background: white;
+     text-align: center;
+ }
+ .rules{
+     background: rgb(202, 191, 191);
+     padding:1% 5%;
+ }
+.rules, .rules h3, .rules h4{
+    text-align: center;
+}
+.rules article{
+    text-align:left;
+}
+.rules span{
+    font-weight: bold;
+}
+.rules img{
+    width: 60%;
+    height: auto;
+}
+
+
+

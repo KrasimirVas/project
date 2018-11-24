@@ -1,0 +1,32 @@
+.site-footer{
+    background: rgb(20, 20, 20);
+    color:white;
+    text-align: center;
+}
+.site-footer form{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0 auto;
+    width:50%;
+}
+.site-footer input{
+    outline:none;
+    border:none;
+    border-radius: 20px;
+    padding:10px;
+    margin-bottom:2%;
+    font-weight: bold;
+    color:black;
+    background: white;
+}
+.site-footer input:last-child{
+    cursor: pointer;
+    background:rgb(248, 121, 75);
+    width:50%;
+    align-self: center;
+}
+.copyrights{
+    background: black;
+    padding-top:1rem;
+}

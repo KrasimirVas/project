@@ -1,0 +1,26 @@
+
+title: Snooker Blog
+email: your-email@example.com
+description: "The snooker is awesome game!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "/project" # the base hostname & protocol for your site, e.g. http://example.com
+destination: "docs"
+github_username:  KrasimirVas
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .gitignore
+  - scss
+  - gulpfiles.js
+  - package.json
+  - package-lock.json
+  - .vscode
