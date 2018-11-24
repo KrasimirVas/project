@@ -28,53 +28,53 @@
     
 }
 .most-world-titles .first{
-    background: url("/img/hendry.jpg");
+    background: url("{{ site.baseurl }}/img/hendry.jpg");
     background-size: cover;
 }
 .most-world-titles .second{
-    background: url("/img/ronnie.jpg");
+    background: url("{{ site.baseurl }}/img/ronnie.jpg");
     background-size: cover;
 }
 .most-world-titles .third{
-    background: url("/img/John-Higgins-609836.jpg");
+    background: url("{{ site.baseurl }}/img/John-Higgins-609836.jpg");
     background-size: cover;
 }
 .most-world-titles .fourth{
-    background: url("/img/steve-davis.jpg");
+    background: url("{{ site.baseurl }}/img/steve-davis.jpg");
     background-size: cover;
 }
 .most-century-breaks .first{
-    background: url("/img/ronnie.jpg");
+    background: url("{{ site.baseurl }}/img/ronnie.jpg");
     background-size: cover;
 
 }
 .most-century-breaks .second{
-    background: url("/img/hendry.jpg");
+    background: url("{{ site.baseurl }}/img/hendry.jpg");
     background-size: cover;
 }
 .most-century-breaks .third{
-    background: url("/img/John-Higgins-609836.jpg");
+    background: url("{{ site.baseurl }}/img/John-Higgins-609836.jpg");
     background-size: cover;
 }
 .most-century-breaks .fourth{
-    background: url("/img/NeilRobertson2016.jpg");
+    background: url("{{ site.baseurl }}/img/NeilRobertson2016.jpg");
     background-size: cover;
 }
 .most-maximum-breaks .first{
-    background: url("/img/ronnie.jpg");
+    background: url("{{ site.baseurl }}/img/ronnie.jpg");
     background-size: cover;
 
 }
 .most-maximum-breaks .second{
-    background: url("/img/hendry.jpg");
+    background: url("{{ site.baseurl }}/img/hendry.jpg");
     background-size: cover;
 }
 .most-maximum-breaks .third{
-    background: url("/img/John-Higgins-609836.jpg");
+    background: url("{{ site.baseurl }}/img/John-Higgins-609836.jpg");
     background-size: cover;
 }
 .most-maximum-breaks .fourth{
-    background: url("/img/ding.jpg");
+    background: url("{{ site.baseurl }}/img/ding.jpg");
     background-size: cover;
 }
 
