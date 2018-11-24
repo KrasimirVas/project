@@ -28,11 +28,11 @@
     
 }
 .most-world-titles .first{
-    background: url("../img/hendry.jpg");
+    background: "../img/hendry.jpg";
     background-size: cover;
 }
 .most-world-titles .second{
-    background: url("{{ site.baseurl }}/img/ronnie.jpg");
+    background: "{{ site.baseurl }}/img/ronnie.jpg";
     background-size: cover;
 }
 .most-world-titles .third{
