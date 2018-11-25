@@ -40,11 +40,11 @@
     background-size: cover;
 }
 .most-world-titles .fourth{
-    background: url("/img/steve-davis.jpg");
+    background: url("{{ site.baseurl }}/img/steve-davis.jpg");
     background-size: cover;
 }
 .most-century-breaks .first{
-    background: url("/img/ronnie.jpg");
+    background: url("{{ project.baseurl }}/img/ronnie.jpg");
     background-size: cover;
 
 }
