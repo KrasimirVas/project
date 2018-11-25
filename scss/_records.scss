@@ -28,8 +28,9 @@
     
 }
 .most-world-titles .first{
-    background: url("{{ baseurl }}/img/hendry.jpg");
+    background-image: image("{{ site.baseurl }}/img/steve-davis.jpg");
     background-size: cover;
+    
 }
 .most-world-titles .second{
     background: url'{{ site.baseurl }}/ronnie.jpg';
