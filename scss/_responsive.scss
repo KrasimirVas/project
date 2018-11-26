@@ -1,0 +1,18 @@
+@media screen and (max-width:800px){
+     .listing li{
+        flex: 0 0 100%;
+        
+    }
+    .site-footer form{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+}
+
+@media screen and (min-width:700px){
+    html { font-size: var(--font-size-lv3, 16px);}
+}
+@media screen and (min-width:1600px){
+    html { font-size: var(--font-size-lv4, 18px);}
+}

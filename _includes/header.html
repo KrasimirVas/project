@@ -1,9 +1,18 @@
+<input type="checkbox" name="main-nav-toggle" id="main-nav-toggle">
 <header class="site-header">
+        <div class="wrapper">
         <div class="site-branding">
             
             <p class="site-title">{{site.title}}</p>
             <p class="site-description">{{site.description}}</p>
+
         </div>
+        <label for="main-nav-toggle" id="toggle">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>            
+        </label>
+    </div>
+
         <nav class="navigation">
             <ul>
                 <li><a href="{{site.baseurl}}/">HOME</a></li>                

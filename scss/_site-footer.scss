@@ -2,24 +2,46 @@
     background: rgb(20, 20, 20);
     color:white;
     text-align: center;
+    padding-top:2rem;
 }
 .site-footer form{
     display:flex;
     flex-direction: column;
     text-align: center;
     margin:0 auto;
-    width:50%;
+    width:30%;
 }
 .site-footer input{
     outline:none;
     border:none;
-    border-radius: 20px;
-    padding:10px;
+    border-radius:10px;
+    padding:6px;
     margin-bottom:2%;
     font-weight: bold;
     color:black;
     background: white;
+    
+    transition: transform 400ms;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+     transition-delay: 60ms;
+  &:focus,
+  &.filled{
+    transform: translate3D(2%,0,0);
+    outline: none;
+    background:lightgreen;
+    
+    + label{
+      transform: translate3D(2%,0,0);
+  
+    
+    }
+  }
 }
+.site-footer input::placeholder {
+    color: black;
+    text-align: center;
+  }
+
 .site-footer input:last-child{
     cursor: pointer;
     background:rgb(248, 121, 75);

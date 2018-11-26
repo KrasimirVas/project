@@ -1,7 +1,7 @@
 ---
 layout: site
 title:  "BetVictor Scottish Open Draw"
-date:   2018-11-20 11:39:07 +0200
+date:   2018-11-25 11:39:07 +0200
 ---
 The tournament at the Glasgow Emirates runs from December 10 to 16 with 128 players battling for the Stephen Hendry Trophy.
 

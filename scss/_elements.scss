@@ -29,19 +29,45 @@ margin:0 auto;
     align-content: center;
     vertical-align: baseline;
     
-}
-.information form input {
-margin-right:1rem;
-width:20rem;
-outline:none;
-border:none;
-border-radius: 20px;
-padding:10px;
-background: black;
-color:white;
-font-weight: 400;
     
 }
+.information form input {
+    position: relative;
+    padding: 1rem 1.3rem;
+    font-weight: bold;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+    margin:1rem;
+
+    
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      border: 1px solid #000;
+    }
+    
+    &::before {
+      top: 0;
+      left: 4px;
+      right: 4px;
+      bottom: 0;
+    }
+    
+    &::after {
+      top: 4px;
+      left: 0;
+      right: 0;
+      bottom: 4px;
+    }
+    
+    &:hover {
+      color: #fff;
+      background: #000;
+    }
+  }
+    
+
 .posts{
     
 }
@@ -106,6 +132,8 @@ font-weight: 400;
     width: 60%;
     height: auto;
 }
+
+
 
 
 
