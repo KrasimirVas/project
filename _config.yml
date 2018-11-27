@@ -1,7 +1,7 @@
 
 title: Snooker Blog
 email: your-email@example.com
-description: "The snooker is awesome game!"
+description: "The snooker is an amazing game!"
 baseurl: "/project" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 destination: "docs"
