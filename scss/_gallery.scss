@@ -18,7 +18,7 @@
  }
  
  .player-pic{
-  width: 28%;
+  width: 100%;
   border: 1.5px solid #ccc;
   padding: 1rem;
   margin: 2% 1.5%;
@@ -42,7 +42,23 @@
  .player-pic p{
   padding: 0.4rem;
  }
- 
+
+
+
+
+@media screen and (min-width: 800px) {
+  .player-pic{
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .player-pic{
+    width: 29%;
+  }
+}
+
+
  /*@media (max-width: 900px){
   .player-pic{
    width: 45%;

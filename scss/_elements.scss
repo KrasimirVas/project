@@ -16,7 +16,7 @@
 }
 .information h3, .information p, .information form{
 
-max-width: 60rem;
+max-width: var(--max-width, 60rem);
 margin:0 auto;
     
     
@@ -68,9 +68,6 @@ margin:0 auto;
   }
     
 
-.posts{
-    
-}
 .posts ul{
     display: flex;
     justify-content: space-between;
@@ -118,12 +115,15 @@ margin:0 auto;
  .rules{
      background: rgb(202, 191, 191);
      padding:1% 5%;
+     
  }
 .rules, .rules h3, .rules h4{
     text-align: center;
 }
 .rules article{
     text-align:left;
+    max-width: var(--max-width, 60rem);
+    margin:0 auto;
 }
 .rules span{
     font-weight: bold;
@@ -139,7 +139,7 @@ margin:0 auto;
     
 }
 .facts-wrapper main{
-    max-width: 65rem;
+    max-width: var(--max-width, 60rem);
     margin:0 auto;
 }
 .facts-wrapper header, .facts-wrapper h4{

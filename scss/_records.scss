@@ -91,7 +91,7 @@
    
    .record-wrapper{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 0.5rem 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +101,7 @@
    }
    
    .player-record {
-    width: 22%;
+    width: 100%;
     border: 1.5px solid #ccc;
     padding: 1rem;
     margin: 2% 1.5%;
@@ -111,7 +111,7 @@
    
    .player-record img {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0;
    }
    
    .player-record:hover{
@@ -125,3 +125,15 @@
    .player-record p{
     padding: 0.4rem;
    }
+
+   @media screen and (min-width: 800px) {
+    .player-record {
+      width: 44%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .player-record {
+        width: 22%;
+      }
+  }

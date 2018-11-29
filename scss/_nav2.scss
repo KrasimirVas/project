@@ -87,7 +87,7 @@ toggle .fas{
   }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .wrapper{
         display: flex;
         justify-content: space-between;
@@ -130,7 +130,7 @@ toggle .fas{
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1001px) {
     .site-header{
         display: flex;
         justify-content: space-between;
