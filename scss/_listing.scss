@@ -57,3 +57,35 @@
 		}
 	}
 }
+body.trymp,
+body.eurosport,
+body.draw,
+body.selby,
+body.higgins,
+body.murphy
+{
+	background-color: #d3d3d3;
+	
+
+  .site-content {
+    padding: 2rem 1rem;	
+	max-width: 60rem;
+	margin:0 auto;
+	.left{
+		float: left;
+		width:50%;
+		height: auto;
+		margin: 0 1.5em .5em 0;
+	}
+	.right{
+		float: right;
+		width:50%;
+		height: auto;
+		margin: 0 0 .5em 1.5em;
+	}
+	h3{
+		padding-bottom: 2rem;
+	}
+    
+  }  
+}

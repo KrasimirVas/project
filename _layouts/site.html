@@ -7,7 +7,7 @@
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
 </head>
-<body >
+<body class="{% if page.type %}{{page.type}} {% endif %}{% if page.description %}{{ page.description | slugify }}{% else %}home{% endif %}">
     <div class="site">
         {% include header.html %}
         <main class="site-content">

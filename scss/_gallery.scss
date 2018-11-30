@@ -1,12 +1,8 @@
 
-.players-gallery{
-  
-  width: 100%;
- 
-  background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(171,171,171,1) 100%);
-  
+.players-gallery{  
+  width: 100%; 
+  background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(171,171,171,1) 100%);  
  }
- 
  .card-gallery{
   width: 100%;
   margin: 0 auto;
@@ -15,8 +11,7 @@
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
- }
- 
+ } 
  .player-pic{
   width: 100%;
   border: 1.5px solid #ccc;
@@ -24,26 +19,22 @@
   margin: 2% 1.5%;
   flex-grow: 0;
   background-color: #ecf0f1f6;
- }
- 
- .player-pic img{
-  max-width: 100%;
-  margin: 0 auto;
- }
- 
- .player-pic:hover{
-  box-shadow: 0 1px 5rem rgba(0,0,0,0.5);
-  transform: scale(1.2);
-  border: none;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  z-index: 1;
- }
- 
- .player-pic p{
-  padding: 0.4rem;
- }
+    img{
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    &:hover{
+      box-shadow: 0 1px 5rem rgba(0,0,0,0.5);
+      transform: scale(1.2);
+      border: none;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+      z-index: 1;
+    }
+    p{
+      padding: 0.4rem;
+    }
 
-
+ }
 
 
 @media screen and (min-width: 800px) {
@@ -58,18 +49,3 @@
   }
 }
 
-
- /*@media (max-width: 900px){
-  .player-pic{
-   width: 45%;
-  }
-    .card-gallery{
-     padding: 10vh 1vh;
-   }
- }
- 
- @media (max-width: 600px){
-  .player-pic{
-   width: 50%;
-  }
- }*/

@@ -3,14 +3,13 @@
     color:white;
     text-align: center;
     padding-top:2rem;
-    
-}
-.site-footer form{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    margin:0 auto;
-    width:30%;
+    form{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        margin:0 auto;
+        width:30%;
+    }
 }
 .site-footer input{
     outline:none;
@@ -21,8 +20,7 @@
     font-weight: 400;
     font-style: italic;
     color:black;
-    background: white;
-    
+    background: white;    
     transition: transform 400ms;
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
      transition-delay: 60ms;
@@ -30,12 +28,9 @@
   &.filled{
     transform: translate3D(2%,0,0);
     outline: none;
-    background:lightgreen;
-    
+    background:lightgreen;    
     + label{
-      transform: translate3D(2%,0,0);
-  
-    
+      transform: translate3D(2%,0,0);     
     }
   }
 }
