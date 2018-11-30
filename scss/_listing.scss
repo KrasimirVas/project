@@ -4,16 +4,12 @@
 	display: flex;
 	justify-content: space-between;
     flex-wrap: wrap;
-    background:rgb(30, 30, 30);
-   
-
+    background:rgb(30, 30, 30); 
 	li {
 		display: block;
 		list-style: none outside;
-        flex: 0 0 31%;
-        
+        flex: 0 0 31%;        
 	}
-
 	a {
 		display: block;
 		background: rgb(214, 214, 214);
@@ -22,10 +18,8 @@
 		text-decoration: none;
 		padding: 1rem 1.5rem;
 		position: relative;
-		margin:0.5rem 1rem;
-		
-		box-shadow: 0 0 1rem 0 rgba(#000,0.2);
-		
+		margin:0.5rem 1rem;		
+		box-shadow: 0 0 1rem 0 rgba(#000,0.2);		
 		&:before {
 			display: block;
 			content: '';
@@ -36,20 +30,16 @@
 			transition: opacity 0.3s ease-in;
 			box-shadow: 0 0 5rem 0.9rem rgba(rgb(255, 35, 15),0.4);
 		}
-
 		&:hover {
 			background: #333;
-			color: #FFF;
-			
+			color: #FFF;			
 			&:before {
 				opacity: 1;
 			}
 		}
-
 		& span {
 			display: block;
 		}
-
 		& .title {
 			font-weight: bold;
 			font-size: 1.2rem;
@@ -65,8 +55,6 @@ body.higgins,
 body.murphy
 {
 	background-color: #d3d3d3;
-	
-
   .site-content {
     padding: 2rem 1rem;	
 	max-width: 60rem;
@@ -85,7 +73,6 @@ body.murphy
 	}
 	h3{
 		padding-bottom: 2rem;
-	}
-    
+	}  
   }  
 }

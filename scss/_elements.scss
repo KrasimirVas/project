@@ -1,5 +1,4 @@
 .information{
-
     background:url("../img/table.jpg");
     background-repeat: no-repeat;    
     background-size: 100% ;
@@ -33,41 +32,32 @@
         font-weight: bold;
         transition: all 0.4s ease-in;
         cursor: pointer;
-        margin:1rem;
-    
+        margin:1rem; 
         
         &::before,
         &::after {
           content: '';
           position: absolute;
           border: 1px solid #000;
-        }
-        
+        }        
         &::before {
           top: 0;
           left: 4px;
           right: 4px;
           bottom: 0;
-        }
-        
+        }        
         &::after {
           top: 4px;
           left: 0;
           right: 0;
           bottom: 4px;
-        }
-        
+        }        
         &:hover {
           color: #fff;
           background: #000;
         }
     }
-}
-
-
-
-    
-
+}  
 .posts {
     ul{
         display: flex;
@@ -78,8 +68,7 @@
     }
     ul li{
         list-style: none;
-        background: #ABABAB;
-        
+        background: #ABABAB;        
         align-items: center;
         text-align: center;
         box-shadow: 
@@ -98,7 +87,6 @@
         font-weight: 400;
      }
 }  
-
  .livescore{
      background:rgb(20, 20, 20);
      padding-top:5rem;
@@ -106,8 +94,7 @@
  .livescore-message{
      width:60%;
      margin:0 auto;
-     padding:3rem 0;
-     
+     padding:3rem 0;     
      background: white;
      text-align: center;
  }
@@ -132,8 +119,7 @@
      img{
         width: 60%;
         height: auto;
-     }
-     
+     }     
  }
 
 .facts-wrapper{
@@ -152,8 +138,7 @@
     }
     span{
         text-align:center;
-    }
-    
+    }    
 }
 
 .video-container{

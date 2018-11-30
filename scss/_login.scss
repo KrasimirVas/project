@@ -3,8 +3,7 @@
     justify-content: center;
     align-items: center;
     background: lightgray;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 .sign{
     border-bottom: 2px solid grey;
@@ -33,32 +32,26 @@
         text-align: center;
         width: 2.5rem;;
         color:white;
-    }
-    
+    }    
 }
-
 .facebook{
     background: #3b5ca1;
     span{
         background: rgb(49, 77, 135)
     }
 }
-
-
 .twitter{
     background: rgb(68, 174, 225);
     span{
         background: rgb(38, 162, 221);
     }
-}
- 
+} 
 .google{
     background: rgb(222, 76, 51);
     span{
         background: rgb(204, 58, 33);
     }
-}
- 
+} 
 .login-forms{
     padding:0 2rem;
     width: 100%;
@@ -117,8 +110,7 @@ body > div > main > h3{
         width:50%;
         margin-top:0;
     }
-  }
-  
+  }  
   @media screen and (min-width: 820px) {
     .sign{
         width:45%;
